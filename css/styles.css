@@ -1,0 +1,162 @@
+/*Used "F12" button to view your element then changingt he margine accordingly*/
+/*Used center property to center all text inside this body*/
+body {
+  margin: 0;
+  text-align: center;
+  /*Fall back is a way to have the user have what font we want to display if they do not have it installed*/
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  /* top right bottom left*/
+  /*margin: 0 auto 0 auto;*/
+  font-family: 'Sacramento', cursive;
+  /* rem "root"em is a way for you to ignore any other sizes that can affect it*/
+  font-size: 5.625em; /*100% = 16px*/ /*1em = 16px*/
+  color: #66BFBF;
+  line-height: 1;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr{
+  color: #757575;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 2.5%;
+  margin: 75px auto 75px auto;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+p{
+  color: #40514E;
+}
+
+.bot{
+  margin: 25px auto 5px auto;
+  color: #EAF6F6;
+  font-size: .75rem;
+}
+
+.profile{
+  margin-top: 65px;
+}
+
+.aprogrammer{
+  font-weight: normal;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  /*Absolute to the top-container, it is inside the top container and the container is relative*/
+  position: absolute;
+  right: 554px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 554px;
+  bottom: 312px;
+}
+
+.mypic{
+  height: 150px;
+  width: 150px;
+}
+
+.code{
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-right: 30px;
+}
+
+/* Implementing the float property! */
+.gym{
+  height: 150px;
+  width: 150px;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 150px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  position: relative;
+}
+
+.myButton {
+	box-shadow:inset 0px 0px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #66BFBF 5%, #66BFBF 100%);
+	background-color:#66BFBF;
+	border-radius:7px;
+	border:1px solid #66BFBF;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #11999E 5%, #11999E 100%);
+	background-color:#11999E;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+/*Clear is like the opposite of float! */
+/*
+.coded1{
+  clear: left;
+}
+
+.coded2{
+  clear: right;
+}
+*/
